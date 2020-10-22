@@ -1,0 +1,62 @@
+@page {
+  margin: 10mm;
+  size: 210mm 297mm;
+}
+
+.report-page {
+  background-color: white;
+  box-sizing: border-box;
+  width: 210mm;
+  height: 297mm;
+  /* border:1px solid black; */
+  page-break-after: always;
+  font-family: sans-serif;
+}
+
+@media print {
+  .report-page {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+  .report-logoBackground {
+    background-color: #1a4567 !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+.report-txtBox {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+.report-title {
+  text-align: center;
+}
+
+.report-table {
+  width: 100%;
+  padding: 20px;
+}
+.report-border {
+  /* height: 200px; */
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: "35px 0px 20px 20px";
+}
+.report-logoBackground {
+  background-color: #2c3b4c;
+  /* height:70px;
+    width:160px; */
+  text-align: center;
+  padding: 10px;
+  /* padding-top: 11px;
+  margin-bottom: 8px; */
+}
+.report-address {
+  font-size: 15px;
+  font-weight: 100;
+}
+.tab-td {
+  text-transform: capitalize;
+  color: black;
+}

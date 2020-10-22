@@ -1,0 +1,8 @@
+module.exports={
+    NEW: 'NEW',
+    ASSIGNED: 'ASSIGNED',
+    PROCESSING:  'PROCESSING',
+    REJECTED:  'REJECTED',
+    CANCELLED:'CANCELLED',
+    COMPLETED:  'COMPLETED'
+}

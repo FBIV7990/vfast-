@@ -1,0 +1,79 @@
+.verifier-modal {
+  font-size: 12px;
+}
+.verifier-modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.verifier-modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.verifier-modal > .actions {
+  margin: auto;
+}
+.verifier-modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  text-align: center;
+}
+.verifier-modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #2a2a2a;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.rate-table {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.rate-table tr td {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.popup-content {
+  width: 80% !important;
+}
+
+.react-responsive-modal-modal {
+  padding: 0px !important;
+}
+
+.ibadge {
+  background-color: blue;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.primary {
+  background-color: #007bff;
+  color: "#fff" !important;
+}
+.success {
+  background-color: #28a745;
+  color: #fff !important;
+}
+
+.info {
+  background-color: #17a2b8;
+  color: #fff !important;
+}
+
+.warning {
+  background-color: #ffc107;
+  color: #fff !important;
+}

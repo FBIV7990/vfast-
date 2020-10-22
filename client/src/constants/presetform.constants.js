@@ -1,0 +1,7 @@
+export const presetFormConstants = {
+  GET_FORM_REQUEST: "GET_FORM_REQUEST",
+  GET_FORM_SUCCESS: "GET_FORM_SUCCESS",
+  GET_FORM_FAILURE: "GET_FORM_FAILURE",
+
+  CLEAR: "CLEAR",
+};
